@@ -27,7 +27,7 @@ public class Hello {
 		  while (rs.next()) {
 		    String userid = rs.getString("name");
 		   // String username = rs.getString("USERNAME");
-		    System.out.println("age : " + userid);
+		    System.out.println("name : " + userid);
 		  }
 
 		} 
